@@ -3,6 +3,9 @@
     "description": "",
     "version": "4.7.2",
     "license": "MIT",
+    "author": {
+        "email":"pdn@sesna.gob.mx"
+    },
     "scripts": {
         "dev": "gulp",
         "zip": "gulp zip",
