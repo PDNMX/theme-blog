@@ -1,0 +1,55 @@
+{{!< default}}
+{{!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template --}}
+
+{{#match @custom.publication_cover_style "!=" "None"}}
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb">
+                        <ul>
+                            <li>
+                                <a href="https://plataformadigitalnacional.org/">Plataforma Digital Nacional</a>
+                            </li>
+                            <li id="txtBreadcum">Blog</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="site-header-content{{#match @custom.publication_cover_style "Large"}} large{{/match}}">      
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <img class="float-right" src="/assets/img/ico_blog.svg" alt="Blog PDN" style="height:128px; max-width: none;">
+                </div>
+                <div class="col-6">
+                    <h1 class="text-left" style="margin: 0px; font-weight: 200;">
+                        Blog
+                    </h1>
+                </div>
+                <hr style="border-top: 3px solid #3ab0e5">
+            </div>
+        </div>
+
+    </div>
+{{/match}}
+
+{{!-- The main content area --}}
+<main id="site-main" class="site-main outer">
+    <div class="inner posts">
+
+        <div class="post-feed{{#match @custom.feed_layout "List"}} list{{/match}}">
+            {{#foreach posts}}
+
+                {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+                {{> "post-card"}}
+
+            {{/foreach}}
+        </div>
+
+    </div>
+</main>
