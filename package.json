@@ -4,7 +4,7 @@
     "version": "4.7.2",
     "license": "MIT",
     "author": {
-        "email":"pdn@sesna.gob.mx"
+        "email": "pdn@sesna.gob.mx"
     },
     "scripts": {
         "dev": "gulp",
@@ -43,6 +43,7 @@
         "defaults"
     ],
     "dependencies": {
+        "nodemon": "^3.0.1",
         "postcss-color-function": "^4.1.0"
     }
 }

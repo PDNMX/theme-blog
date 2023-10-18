@@ -90,7 +90,10 @@ body {
 
 /* 4. Site Header
 /* ---------------------------------------------------------- */
-
+.header {
+  background: transparent linear-gradient(230deg, #1C7CBF 0%, #1C7CBF 4%, #9F58E2 49%, #6D4061 100%) 0% 0% no-repeat padding-box;
+  min-height: 77px;
+}
 .site-header {
   position: relative;
   color: #fff;
@@ -2221,6 +2224,13 @@ the right place. Onward!
 }
 
 /* navbar custom */
+nav {
+  border: 1px solid #fff;
+  background: white;
+  margin: 10px;
+  border-radius: 75px;
+  padding: 0px 50px;
+}
 
 .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
   color: #b2bfc4;
@@ -2326,9 +2336,9 @@ the right place. Onward!
   color: #000;
 }
 
-.fondo-cruces {
+.fondo {
   flex-grow: 1;
-  background-image: url(/assets/img/fondo_cruces.png);
+  background-image: url(/assets/img/fondo.png);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
