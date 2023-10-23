@@ -94,6 +94,15 @@ body {
   background: transparent linear-gradient(230deg, #1C7CBF 0%, #1C7CBF 4%, #9F58E2 49%, #6D4061 100%) 0% 0% no-repeat padding-box;
   min-height: 77px;
 }
+
+header > div {
+  padding: 7px 32px 5px 32px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .site-header {
   position: relative;
   color: #fff;
@@ -2640,4 +2649,31 @@ nav {
 hr {
   margin: 2em 0 2em;
 }
+/* login */
+p {
+  text-align: right;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "muli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+}
+
+p.login {
+  color: rgba(255,255,255,.8);
+  margin-bottom: 10px;
+  font-size: .7em;
+}
+
+img.ico {
+  width: 22px;
+  padding-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 
