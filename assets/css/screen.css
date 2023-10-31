@@ -90,19 +90,9 @@ body {
 
 /* 4. Site Header
 /* ---------------------------------------------------------- */
-.header {
-  background: transparent
-    linear-gradient(230deg, #1c7cbf 0%, #1c7cbf 4%, #9f58e2 49%, #6d4061 100%)
-    0% 0% no-repeat padding-box;
-  min-height: 77px;
-}
 
-header > div {
-  padding: 7px 32px 5px 32px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
+div {
+  display: block;
 }
 
 .site-header {
@@ -2239,13 +2229,6 @@ the right place. Onward!
 }
 
 /* navbar custom */
-nav {
-  border: 1px solid #fff;
-  background: white;
-  margin: 10px;
-  border-radius: 75px;
-  padding: 0px 50px;
-}
 
 .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
   color: #b2bfc4;
@@ -2671,4 +2654,13 @@ img.ico {
   padding-top: 2px;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+img {
+  border: 0;
+}
+
+img,
+svg {
+  vertical-align: middle;
 }
