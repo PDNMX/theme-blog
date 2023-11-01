@@ -2302,7 +2302,9 @@ the right place. Onward!
 }
 
 .row-solo {
-  background-color: #bae3f7;
+  background: transparent
+    linear-gradient(230deg, #1c7cbf 0%, #1c7cbf 4%, #9f58e2 49%, #6d4061 100%)
+    0% 0% no-repeat padding-box;
   margin-left: -20px;
   height: 50px;
 }
