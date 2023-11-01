@@ -163,7 +163,7 @@ div {
   /* padding: 18vmin 4vmin; */
   font-size: 2.5rem;
   font-weight: 400;
-  color: #fff;
+  color: #713972;
   /* background: #0d3b49; */
 }
 
@@ -798,10 +798,7 @@ make sure this only happens on large viewports / desktop-ish devices.
   }
   .iconos-menu {
     height: 60px;
-    padding-top: 16px;
-    padding-left: 56px;
-    padding-right: 56px;
-    padding-bottom: 0;
+    padding: 16px 5px 0;
   }
 
   .post-card-large:not(.no-image) .post-card-header {
@@ -1731,7 +1728,7 @@ iframe.instagram-media + script + :not([id]) {
 }
 
 .site-footer a {
-  color: rgba(255, 255, 255, 0.7);
+  color: #7a3d71;
 }
 
 .site-footer a:hover {
@@ -2152,10 +2149,7 @@ the right place. Onward!
 
 .iconos-menu {
   height: 60px;
-  padding-top: 16px;
-  padding-left: 56px;
-  padding-right: 56px;
-  padding-bottom: 0;
+  padding: 16px 6px 0;
 }
 
 .iconos-footer {
@@ -2206,8 +2200,8 @@ the right place. Onward!
 }
 
 .breadcrumb li a {
-  color: #ced8db;
-  border-bottom: 1px dotted #34b3eb;
+  color: #713972;
+  border-bottom: 1px dotted #1c7cbf;
 }
 
 .breadcrumb li a:hover {
@@ -2215,7 +2209,7 @@ the right place. Onward!
 }
 
 .breadcrumb li:last-child {
-  color: #999999;
+  color: #713972;
 }
 
 .breadcrumb li::after {
@@ -2301,7 +2295,7 @@ the right place. Onward!
 }
 
 .column-sola {
-  background-color: #6b808a;
+  background-color: #815474;
   height: 250px;
   margin-top: -40px;
   max-width: 50px;
@@ -2514,10 +2508,9 @@ the right place. Onward!
 .dropdown-menu {
   border-radius: 0px;
   width: 100%;
-  background-color: #e3f2fd;
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #364e56;
+  background-color: #f7f7f7;
   /* display: flex; */
   /* justify-content: space-evenly; */
 }
@@ -2663,4 +2656,21 @@ img {
 img,
 svg {
   vertical-align: middle;
+}
+
+.encabezado {
+  border: 1px solid #fff;
+  background: white;
+  margin: 10px;
+  border-radius: 75px;
+  padding: 0px 10px;
+  max-width: 1080px;
+}
+
+.logo-pdn {
+  min-width: 80px;
+}
+
+.more {
+  display: block;
 }

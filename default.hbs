@@ -21,7 +21,8 @@
 
     {{!-- Theme assets - use the {asset} helper to reference styles & scripts,
     this will take care of caching and cache-busting automatically --}}
-    <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/screen.css" />
+    {{!-- <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" /> --!}}
     {{!-- <link rel="icon" href="{{asset "favicon.ico"}}" /> --}}
 
     {{!-- This tag outputs all your advanced SEO meta, structured data, and other important settings,
@@ -32,13 +33,17 @@
 <body class="{{body_class}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Modern sans-serif"}} has-sans-body{{/match}}">
 <div class="viewport fondo">
     <header>
-        <nav class="navbar navbar-icon-top navbar-expand-lg" style="background: transparent
+        <nav class="navbar navbar-icon-top navbar-expand-lg justify-content-between" style="background: transparent
         linear-gradient(230deg, #1c7cbf 0%, #1c7cbf 4%, #9f58e2 49%, #6d4061 100%)
         0% 0% no-repeat padding-box;
         min-height: 77px">
         {{!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button> --}}
+        </button> --}}      
+        
+        <a class="nav-link float-right" href="https://www.plataformadigitalnacional.org">
+                    <img src="/assets/img/logo_pdn-transparente.svg" alt="PDN" class="logo-pdn iconos-menu float-right">
+        </a>
         <div class="more">
             <button id="more-btn" class="more-btn navbar-toggler" type="button">
                 <span class="more-dot"></span>
@@ -137,15 +142,9 @@
             </div>
         </div>
 
-                <a class="nav-link float-right" href="https://www.plataformadigitalnacional.org">
-                    <img src="/assets/img/logo_pdn.svg" alt="PDN" class="iconos-menu float-right">
-                </a>
+          
 
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" style="    border: 1px solid #fff;
-    background: white;
-    margin: 10px;
-    border-radius: 75px;
-    padding: 0px 50px">
+        <div class="encabezado collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 
             <li class="nav-item">
@@ -348,10 +347,13 @@
                 <div class="col-md-4 col-sm-12">
                     <div id="logos" class="row">
                         <div class="col-md-6 col-sm-12 d-flex justify-content-start">
+                            <img src="/assets/img/logotipo_sna.svg" alt="PDN" class="iconos-footer2">
+                        </div>
+                        <div class="col-md-6 col-sm-12 d-flex justify-content-start">
                             <img src="/assets/img/sna.svg" alt="PDN" class="iconos-footer2">
                         </div>
                         <div class="col-md-6 col-sm-12 d-flex justify-content-start">
-                            <img src="/assets/img/logo_pdn2.svg" alt="PDN" class="iconos-footer2">
+                            <img src="/assets/img/logotipo_pdn.svg" alt="PDN" class="iconos-footer2">
                         </div>
                     </div>
                 </div>
