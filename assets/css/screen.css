@@ -2344,7 +2344,7 @@ the right place. Onward!
 }
 
 .footer-aling {
-  justify-content: flex-end !important;
+  justify-content: flex-start !important;
 }
 
 #img-github {
