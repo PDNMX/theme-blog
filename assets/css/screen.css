@@ -1710,7 +1710,7 @@ iframe.instagram-media + script + :not([id]) {
   /* margin: 40px 0 0 0; */
   padding: 40px 0px 0px 0px;
   color: #d0d7d9;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgb(255, 255, 255);
 }
 
 .site-footer .inner {
@@ -1729,6 +1729,7 @@ iframe.instagram-media + script + :not([id]) {
 
 .site-footer a {
   color: #7a3d71;
+  border-bottom: 2px solid#fff;
 }
 
 .site-footer a:hover {
