@@ -1732,7 +1732,7 @@ iframe.instagram-media + script + :not([id]) {
 }
 
 .site-footer a:hover {
-  color: rgba(255, 255, 255, 1);
+  /*color: rgba(255, 255, 255, 1);*/
   text-decoration: none;
 }
 
@@ -1791,7 +1791,7 @@ iframe.instagram-media + script + :not([id]) {
 by adding the following code to the Head section of "Code Injection"
 settings inside: Ghost Admin > Settings > Advanced
 
-<script>document.documentElement.classList.add('dark-mode');</script>
+<script>document.documentElement.classList.add('dark-mode');</script>site-foo
 
 Or you can just edit default.hbs and add the .dark-mode class directly
 to the html tag on the very first line of the file.
@@ -2305,7 +2305,7 @@ the right place. Onward!
   background: transparent
     linear-gradient(230deg, #1c7cbf 0%, #1c7cbf 4%, #9f58e2 49%, #6d4061 100%)
     0% 0% no-repeat padding-box;
-  margin-left: -20px;
+  /*margin-left: -20px;*/
   height: 50px;
 }
 
@@ -2502,7 +2502,7 @@ the right place. Onward!
 }
 
 .footer-link:hover {
-  color: #fff !important;
+  /*color: #fff !important;*/
   border-bottom: 2px solid #3ab0e5;
   text-decoration: none;
 }
