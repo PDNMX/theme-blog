@@ -890,7 +890,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .article-title {
-  color: #d0d7d9;
+  color: #713972;
 }
 
 .has-serif-title .article-title {
@@ -1019,7 +1019,7 @@ is the very first element in the post content */
 
 /* Now the content typography styles */
 .gh-content a {
-  color: #fff;
+  color: #1c7cbf;
   text-decoration: underline;
   word-break: break-word;
   font-weight: bold;
@@ -2353,7 +2353,7 @@ the right place. Onward!
 }
 
 .article {
-  color: #d0d7d9 !important;
+  color: #000000 !important;
 }
 
 @media (max-width: 1001px) {
@@ -2600,12 +2600,12 @@ the right place. Onward!
 }
 
 .text-container {
-  background-color: #104354;
+  background-color: #fff;
   position: relative;
   max-width: 1100px;
   margin: auto;
   padding: 3%;
-  border-color: #3ab0e5;
+  border-color: #ccdef2;
   border-style: solid;
   border-width: 1px;
   border-radius: 4px;
