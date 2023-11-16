@@ -2417,7 +2417,7 @@ the right place. Onward!
 }
 
 .more-dot {
-  background-color: #0081b3;
+  background-color: #fff;
   margin: 0 auto;
   display: inline-block;
   width: 6px;
@@ -2493,7 +2493,7 @@ the right place. Onward!
 
 .more-btn:hover .more-dot,
 .show-more-menu .more-dot {
-  background-color: #516471;
+  background-color: #1c7cbf;
 }
 
 .show-more-menu .more-menu {
