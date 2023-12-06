@@ -2149,8 +2149,8 @@ the right place. Onward!
  */
 
 .iconos-menu {
-  height: 60px;
-  padding: 16px 6px 0;
+  height: 45px;
+  padding: 5px 3px 5px 3px;
 }
 
 .iconos-footer {
@@ -2386,8 +2386,8 @@ the right place. Onward!
     width: 150px;
   }
   .iconos-menu {
-    height: 32px;
-    padding: 0px;
+    height: 45px;
+    padding: 5px 3px 5px 3px;
     padding-right: 10px;
     margin-top: -5px;
   }

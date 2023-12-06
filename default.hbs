@@ -31,7 +31,7 @@
 
 </head>
 <body class="{{body_class}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Modern sans-serif"}} has-sans-body{{/match}}">
-<div class="viewport fondo">
+<div class="viewport">
     <header>
         <nav class="navbar navbar-icon-top navbar-expand-lg" style="background: transparent
         linear-gradient(230deg, #1c7cbf 0%, #1c7cbf 4%, #9f58e2 49%, #6d4061 100%)
@@ -289,73 +289,69 @@
     </div>
 
     {{!-- The global footer at the very bottom of the screen --}}
-    <footer class="site-footer outer">
-        <div class="container" style="max-width: 100%;">
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="row">
-                        <div class="col-12 d-flex footer-aling align-items-center">
-                            <a class="footer-link" href="mailto:pdn@sesna.gob.mx">pdn@sesna.gob.mx</a>
-                            
-                            <a href="https://www.youtube.com/channel/UCRUpiHth_WRkNo2sBmZIyfQ/">
-                                <img src="/assets/img/yt.svg" alt="PDN" class="iconos-footer1">
-                            </a>
-                            <a href="https://www.facebook.com/SESNAOficial">
-                                <img src="/assets/img/fb.svg" alt="PDN" class="iconos-footer1" style="margin-right: 1rem;">
-                            </a>
-                            <a href="https://twitter.com/SESNAOficial">
-                                <img src="/assets/img/tw.svg" alt="PDN" class="iconos-footer1">
-                            </a>
-                        </div>
-                        <div class="col-12 d-flex footer-aling align-items-center row-solo footer-row" style="">
-                            
-                            <a class="text-right" href="https://www.plataformadigitalnacional.org/about" style="color: #ffffff; border-bottom: none;">Acerca de la PDN</a>
-                        </div>
-                        <div class="col-12 d-flex footer-aling align-items-center footer-row">
-                            <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.es">
-                                <img src="/assets/img/CC.png" alt="PDN" class="" style=" display: inline; margin-right: 20px">
-                            </a>
-                            <a class="nav-link" href="https://github.com/orgs/PDNMX">
-                                <img id="img-github" src="/assets/img/github.svg" alt="PDN" class="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    {{!-- <div id="row-background"></div> --}}
-                    <div class="row">
-                    
-                        <div class="col-md-5 col-sm-12 d-flex align-items-end flex-column footer-row">
-                            <a class="text-right footer-link" href="https://www.plataformadigitalnacional.org/mapa-sla/">Avances de Interconexión</a>
-                            <a class="text-right footer-link" href="https://mda.plataformadigitalnacional.org/">Mercado Digital Anticorrupción</a>
-                        </div>
-                        <div class="col-md-1 d-none d-md-block column-sola"></div>
-                        <div class="col-md-5 col-sm-12 d-flex align-items-start flex-column footer-row">
-                            <a class="footer-link" href="https://www.plataformadigitalnacional.org/faq">Preguntas frecuentes</a>
-                            <a class="footer-link" href="https://www.youtube.com/channel/UCJ0nWmB2-ADfn95r5cjmLJA/">Videos</a>
-                            <a class="footer-link" href="https://drive.google.com/drive/folders/1t_vGUfagr75TAZ8-E4NZfL-fU0BcsPlZ">Boletines y prensa</a>
-                        </div>
-                    
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div id="logos" class="row">
-                        <div class="col-md-6 col-sm-12 d-flex justify-content-start">
-                            <img src="/assets/img/logotipo_sna.svg" alt="PDN" class="iconos-footer2">
-                        </div>
-                        <div class="col-md-6 col-sm-12 d-flex justify-content-start">
-                            <img src="/assets/img/sna.svg" alt="PDN" class="iconos-footer2">
-                        </div>
-                        <div class="col-md-6 col-sm-12 d-flex justify-content-start">
-                            <img src="/assets/img/logotipo_pdn.svg" alt="PDN" class="iconos-footer2">
-                        </div>
-                    </div>
-                </div>
+	<footer class="footer">
+		<section class="flex-container">
+			<div class="container">
+				<div class="row justify-content-md-center mt-5" style="font-size: 40px;">
+					<div class="col-md-3">
+						<img src="/assets/img/sna.svg" class="img-fluid" alt="logo-sesna">
+					</div>
+					<div class="col-md-3">
+						<img src="/assets/img/logotipo_sna.svg" class="img-fluid" alt="logo-sna">
+					</div>
+					<div class="col-md-3">
+						<img src="assets/img/logo_pdn2.svg" class="img-fluid" alt="logo-pdn">
+					</div>
+				</div>
+				<div class="row justify-content-md-center mt-3">
+					<div class="col-sm-3">
+						<ul>
+							<li><a href="https://www.plataformadigitalnacional.org/about">Acerca de la PDN</a></li>
+							<li><a class="text-right footer-link"
+									href="https://www.plataformadigitalnacional.org/mapa-sla/">Avances de
+									Interconexión</a></li>
+							<li><a class="text-right footer-link"
+									href="https://mda.plataformadigitalnacional.org/">Mercado Digital Anticorrupción</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<ul>
+							<li><a class="footer-link" href="https://www.plataformadigitalnacional.org/faq">Preguntas
+									frecuentes</a></li>
+							<li><a class="footer-link"
+									href="https://www.youtube.com/channel/UCJ0nWmB2-ADfn95r5cjmLJA/">Videos</a></li>
+							<li> <a class="footer-link"
+									href="https://drive.google.com/drive/folders/1t_vGUfagr75TAZ8-E4NZfL-fU0BcsPlZ">Boletines
+									y prensa</a></li>
+						</ul>
+					</div>
 
-            </div>
-        </div>
-    </footer>
-
+				</div>
+				<div class="row mt-3">
+					<div class="col-12">
+						<div class="dropdown-divider"
+							style=" border-width: 7px; border-image: linear-gradient(230deg, #1C7CBF 0%, #1C7CBF 4%, #9F58E2 49%, #6D4061 100%) 1;">
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-md-center mt-3 mb-5" style="font-size: 40px;">
+					<div class="col-md-2">
+						<i class="fa fa-creative-commons" aria-hidden="true"></i>
+					</div>
+					<div class="col-md-2">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</div>
+					<div class="col-md-2">
+						<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					</div>
+					<div class="col-md-2">
+						<i class="fa fa-github" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
 </div>
 {{!-- /.viewport --}}
 
