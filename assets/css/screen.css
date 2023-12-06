@@ -30,10 +30,25 @@ production stylesheet in assets/built/screen.css
 /* Import CSS reset and base styles */
 @import "global.css";
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");*/
+@font-face {
+  font-family: "Muli";
+  src: url("/assets/fonts/Muli-Regular.woff2") format("woff2"), url("/assets/fonts/Muli-Regular.woff") format("woff"), url("/assets/fonts/Muli-Regular.otf") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
 
 body {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgba(102, 102, 102, 1); */
+  font-weight: 300;
+  color: #2a2a2a;
 }
 
 :root {
