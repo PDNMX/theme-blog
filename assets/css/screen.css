@@ -2721,3 +2721,9 @@ footer li a {
 
 }
 
+.footer a:hover
+{
+  text-decoration: none;
+}
+
+
