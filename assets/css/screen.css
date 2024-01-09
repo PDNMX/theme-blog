@@ -36,10 +36,11 @@ production stylesheet in assets/built/screen.css
   src: url("/assets/fonts/Muli-Regular.woff2") format("woff2"), url("/assets/fonts/Muli-Regular.woff") format("woff"), url("/assets/fonts/Muli-Regular.otf") format("opentype");
   font-display: auto;
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-stretch: normal;
 }
 
+html,
 body {
   margin: 0;
   padding: 0;
@@ -72,8 +73,8 @@ body {
      */
 
   /* Fonts */
-  --font-sans-serif: "Roboto", sans-serif;
-  --font-serif: "Roboto", sans-serif;
+  --font-sans-serif: "Muli", sans-serif;
+  --font-serif: "Muli", sans-serif;
   --font-mono: Menlo, Courier, monospace;
 }
 /* 2. Layout - Page building blocks
@@ -2645,14 +2646,14 @@ p {
   text-align: right;
 }
 
-p {
+/* p {
   margin: 0;
   padding: 0;
-  font-family: "muli", sans-serif;
+  font-family: "Muli", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: justify;
-}
+} */
 
 p.login {
   color: rgba(255, 255, 255, 0.8);
@@ -2707,3 +2708,16 @@ li.nav-item:hover {
   height: 40px;
   padding: 5px 0;
 }
+
+
+footer li a {
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  color: #57585A;
+  transition: all 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  line-height: 0.5;
+  font-size: 1.5rem;
+
+}
+
