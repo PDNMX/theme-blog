@@ -2717,13 +2717,23 @@ footer li a {
   color: #57585A;
   transition: all 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
   line-height: 0.5;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
 
 }
 
 .footer a:hover
 {
   text-decoration: none;
+}
+
+.footerLogos img
+{
+  max-height: 90px !important;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 
