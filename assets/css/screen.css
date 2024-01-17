@@ -2402,10 +2402,16 @@ the right place. Onward!
     width: 150px;
   }
   .iconos-menu {
-    height: 45px;
-    padding: 5px 3px 5px 3px;
+    height: 35px;
+    width: 35px;
+    margin: auto;
+    /*padding: 5px 3px 5px 3px;
     padding-right: 10px;
-    margin-top: -5px;
+    margin-top: -5px;*/
+  }
+  .logo-pdn {
+    height: 40px;
+    margin: auto;
   }
   #text-sesion {
     display: none;
@@ -2445,7 +2451,7 @@ the right place. Onward!
 
 .more-menu {
   position: absolute;
-  top: 70%;
+  top: 90%;
   z-index: 900;
   /* float: left; */
   padding: 5px;
@@ -2542,8 +2548,8 @@ the right place. Onward!
 }
 
 .iconos-submenu {
-  max-width: 56px;
-  padding-bottom: 15px;
+  max-width: 40px;
+  margin-right: 24px;
 }
 
 .submenu1 {
@@ -2596,9 +2602,9 @@ the right place. Onward!
 }
 
 .panelMenu a {
-  color: #4a2f4b;
+  color: #55575A;
   margin: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Muli";
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -2617,6 +2623,11 @@ the right place. Onward!
 
 .panel-body p {
   padding-left: 10px;
+  margin: 0;
+  font-family: Muli;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #713972;
 }
 
 .text-container {
@@ -2647,7 +2658,7 @@ hr {
 }
 /* login */
 p {
-  text-align: right;
+  text-align: left;
 }
 
 /* p {
