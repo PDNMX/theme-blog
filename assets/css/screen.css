@@ -33,7 +33,7 @@ production stylesheet in assets/built/screen.css
 /*@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");*/
 @font-face {
   font-family: "Muli";
-  src: url("https://github.com/PDNMX/theme-blog/raw/main/assets/fonts/Muli-Regular.woff2") format("woff2"), url("https://github.com/PDNMX/theme-blog/raw/main/assets/fonts/Muli-Regular.woff") format("woff"), url("https://github.com/PDNMX/theme-blog/raw/main/assets/fonts/Muli-Regular.otf") format("opentype");
+  src: url("/blog/assets/fonts/Muli-Regular.woff2") format("woff2"), url("/blog/fonts/Muli-Regular.woff") format("woff"), url("/blog/assets/fonts/Muli-Regular.otf") format("opentype");
   font-display: auto;
   font-style: normal;
   /* font-weight: 400; */
